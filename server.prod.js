@@ -3,7 +3,7 @@
 var Nuxt = require('nuxt');
 var app = require('express')();
 var host = process.env.HOST || '127.0.0.1';
-var port = process.env.PORT || 3000;
+var port = process.env.PORT || 3001;
 
 app.set('port', port);
 // Import API Routes

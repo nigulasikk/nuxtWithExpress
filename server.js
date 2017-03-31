@@ -1,7 +1,7 @@
 const Nuxt = require('nuxt')
 const app = require('express')()
 const host = process.env.HOST || '127.0.0.1'
-const port = process.env.PORT || 3000
+const port = process.env.PORT || 3001
 
 app.set('port', port)
 // Import API Routes
